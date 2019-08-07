@@ -33,11 +33,11 @@ class Calculator extends React.Component{
     {
         return(
 
-                <div style={{border:'1px solid black',width:'20%',height:410,marginLeft:'auto',marginRight:'auto',display:'block',marginTop:150,backgroundColor:'#F7DC6F  '}}>
+                <div style={{border:'1px solid black',width:'300px',height:410,marginLeft:'auto',marginRight:'auto',display:'block',marginTop:150,backgroundColor:'#F7DC6F  '}}>
                    <div style={{height:90,width:'100%',marginLeft:0,backgroundColor:'white',outline:'none'}}>
                        <span style={{marginRight:5,float:'right',textAlign:'right',fontSize:30,color:'black',marginTop:50,}} >{this.state.input}</span> 
                     </div>
-                        <input  style={{backgroundColor:'#17202A  ',outline:'none',border:'none',fontSize:15,color:'white',float:'left',marginLeft:15,marginTop:30,width:178,height:50,fontWeight:'bold',fontSize:20}} type="button"  name="Clear" value="Clear" onClick={this.onClickCancel}/>
+                        <input  style={{backgroundColor:'#17202A  ',outline:'none',border:'none',fontSize:15,color:'white',float:'left',marginLeft:15,marginTop:30,width:195,height:50,fontWeight:'bold',fontSize:20}} type="button"  name="Clear" value="Clear" onClick={this.onClickCancel}/>
                         <input  style={{backgroundColor:'#EC7063',outline:'none',border:'none',fontSize:15,color:'white',float:'right',marginLeft:0,marginTop:30,width:50,height:50,marginRight:15,borderRadius:'70px',fontWeight:'bold',fontSize:20}} type="button"  name="x" value="*" onClick={this.onClickHandler}/>
                         <div style={{float:'left',display:'block',width:'21%',height:210,marginLeft:15,marginTop:0,backgroundColor:'white'}}>
                         <input className="button" style={{fontSize:15,outline:'none',border:'none',float:'left',marginLeft:0,marginTop:0,width:60,height:40,marginRight:60,fontWeight:'bold'}} type="button"  name="7" value="7"  onClick={this.onClickHandler}/>
