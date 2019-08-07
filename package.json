@@ -1,6 +1,6 @@
 {
   "name": "mycalculator",
-  "homepage":"https://maryam032.github.io/calc",
+  "homepage": "https://maryam032.github.io/calc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -33,6 +33,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.0"
+    "gh-pages": "^2.0.1"
   }
 }
